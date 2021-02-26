@@ -2,7 +2,7 @@
   "name": "cucumber-esm-example",
   "description": "Example cucumber project using ESM",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davidjgoss/cucumber-esm-example/issues"
   },
-  "homepage": "https://github.com/davidjgoss/cucumber-esm-example#readme"
+  "homepage": "https://github.com/davidjgoss/cucumber-esm-example#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0"
+  }
 }
