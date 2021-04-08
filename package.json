@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js --esm"
+    "test": "cucumber-js --esm --format cucumberjs-noop-formatter:noop.txt --format ./TestFormatter.js:test.txt"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/davidjgoss/cucumber-esm-example#readme",
   "devDependencies": {
-    "@cucumber/cucumber": "^7.0.0"
+    "@cucumber/cucumber": "^7.1.0",
+    "cucumberjs-noop-formatter": "^0.1.0"
   }
 }
