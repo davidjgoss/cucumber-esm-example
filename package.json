@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/davidjgoss/cucumber-esm-example#readme",
   "devDependencies": {
-    "@cucumber/cucumber": "^7.1.0",
+    "@cucumber/cucumber": "^7.2.0",
     "cucumberjs-noop-formatter": "^0.1.0"
   }
 }
